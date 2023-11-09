@@ -25,6 +25,11 @@
         "terrariamods": "https://terrariamods.wiki.gg/wiki/",
         "thoriummod": "https://thoriummod.wiki.gg/wiki/",
     };
+    // Include a comma at the end of the last line!
+    // - It's technically valid JavaScript! ;)
+    // - If a redirection is added below the bottom, you won't have to add a
+    //   comma to the line that was previously the bottom, preserving its
+    //   git blame author!
 
     // Do not touch below unless you know what you're doing! :D
 
