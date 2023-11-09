@@ -6,25 +6,17 @@ assignees:
   - WesternIcelander
 body:
   - type: textarea
-    id: bug-text
+    id: bug-problem
     attributes:
       label: Problem
       description: What is wrong?
     validations:
       required: true
   - type: textarea
-    id: bug-text
+    id: bug-reproduction
     attributes:
       label: Step by step instructions to reproduce the bug
       description: "Pretend I'm a 5 year old, tell me how you get this bug"
-    validations:
-      required: true
-  - type: input
-    id: new-url
-    attributes:
-      label: Original Fandom wiki location
-      description: What URL is the Fandom wiki at?
-      placeholder: https://minecraft.wiki/
     validations:
       required: true
   - type: checkboxes
