@@ -20,7 +20,10 @@
         "minecraft-archive": "https://minecraft.wiki/w/",
         "oldschoolrunescape": "https://oldschool.runescape.wiki/w/",
         "runescape": "https://runescape.wiki/w/",
-        "terraria": "https://terraria.wiki.gg/wiki/"
+        "spiritmod": "https://spiritmod.wiki.gg/wiki/",
+        "terraria": "https://terraria.wiki.gg/wiki/",
+        "terrariamods": "https://terrariamods.wiki.gg/wiki/",
+        "thoriummod": "https://thoriummod.wiki.gg/wiki/"
     };
 
     // Do not touch below unless you know what you're doing! :D
