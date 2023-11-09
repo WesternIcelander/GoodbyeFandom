@@ -15,10 +15,12 @@
 
     // Add your redirections here! Please keep it in alphabetical order!
     let redirections = {
+        "calamitymod": "https://calamitymod.wiki.gg/wiki/",
         "minecraft": "https://minecraft.wiki/w/",
         "minecraft-archive": "https://minecraft.wiki/w/",
         "oldschoolrunescape": "https://oldschool.runescape.wiki/w/",
         "runescape": "https://runescape.wiki/w/",
+        "terraria": "https://terraria.wiki.gg/wiki/"
     };
 
     // Do not touch below unless you know what you're doing! :D
