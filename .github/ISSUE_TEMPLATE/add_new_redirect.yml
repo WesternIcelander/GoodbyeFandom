@@ -1,0 +1,36 @@
+name: Add New Redirect
+description: Add a new redirect from Fandom to a better wiki
+title: "[New Redirect]: "
+labels: ["newredirect"]
+assignees:
+  - WesternIcelander
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+  - type: input
+    id: original-url
+    attributes:
+      label: Original Fandom wiki location
+      description: What URL is the Fandom wiki at?
+      placeholder: https://minecraft.fandom.com/
+    validations:
+      required: true
+  - type: input
+    id: new-url
+    attributes:
+      label: Original Fandom wiki location
+      description: What URL is the Fandom wiki at?
+      placeholder: https://minecraft.wiki/
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: I searched issues and pull requests to see if this redirect has already been requested.
+          required: true
+        - label: I searched issues and pull requests to see if this redirect has already been requested.
+          required: true

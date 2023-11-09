@@ -1,0 +1,41 @@
+name: Bug Report
+description: Report a problem with Goodbye Fandom
+title: "[Bug]: "
+labels: ["bug"]
+assignees:
+  - WesternIcelander
+body:
+  - type: textarea
+    id: bug-text
+    attributes:
+      label: Problem
+      description: What is wrong?
+    validations:
+      required: true
+  - type: textarea
+    id: bug-text
+    attributes:
+      label: Step by step instructions to reproduce the bug
+      description: "Pretend I'm a 5 year old, tell me how you get this bug"
+    validations:
+      required: true
+  - type: input
+    id: new-url
+    attributes:
+      label: Original Fandom wiki location
+      description: What URL is the Fandom wiki at?
+      placeholder: https://minecraft.wiki/
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: I am using Goodbye Fandom and not a fork. Problems with forks should not be reported here.
+          required: true
+        - label: This is not a request to add a redirect. Redirects should use the Add New Redirect issue type.
+          required: true
+        - label: I have not read these checkboxes and therefore I just ticked them all.
+        - label: This is not a request for help on how to install Goodbye Fandom.
+          required: true
