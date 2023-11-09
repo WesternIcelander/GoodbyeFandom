@@ -38,7 +38,6 @@
     let endOfWikiName = currentUrl.indexOf(".fandom.com");
     let startOfArticleName = currentUrl.indexOf("/wiki/") + 6;
     if (startOfWikiName == 2 || endOfWikiName == -1 || startOfArticleName == 5) {
-        console.log(startOfWikiName, endOfWikiName, startOfArticleName);
         return;
     }
     let wikiName = currentUrl.substring(startOfWikiName, endOfWikiName);
