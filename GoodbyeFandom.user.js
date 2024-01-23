@@ -16,6 +16,7 @@
     // Add your redirections here! Please keep it in alphabetical order!
     let redirections = {
         "calamitymod": "https://calamitymod.wiki.gg/wiki/",
+        "lethal-company": "https://lethal.miraheze.org/wiki/",
         "minecraft": "https://minecraft.wiki/w/",
         "minecraft-archive": "https://minecraft.wiki/w/",
         "oldschoolrunescape": "https://oldschool.runescape.wiki/w/",
